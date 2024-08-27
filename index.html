@@ -1,45 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 
-    <title>Pop-up message</title>
+    <title>Open Modal</title>
+  </head>
 
-</head>
+  <body>
+    <div class="container">
+      <div id="content">
+        <h1 id="title">Eu não manjo de js</h1>
 
-<body>
-    <div id="content">
+        <button id="show">Testa aí</button>
 
-        <h1 id="title">
-            Eu não manjo de js
-        </h1>
-
-        <button id="exibir">
-            Testa aí
-        </button>
-    
         <!-- <button onclick="exibir('pop-up')">
             Me aperta
         </button> -->
-
+      </div>
     </div>
 
-    <div id="pop-up">
+    <div id="modal">
+      <dialog>
+        <h1>VAI CORINTIA</h1>
 
-        <h1 id="textpopup">
-            texto
-        </h1>
-
-        <button id="fechar">
-            X
-        </button>
-        
+        <button id="hide">fechar</button>
+      </dialog>
     </div>
 
     <script src="./script.js"></script>
-
-</body>
+  </body>
 </html>

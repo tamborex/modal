@@ -1,3 +1,23 @@
+const show = document.getElementById("show")
+
+show.addEventListener('click', ()=>{
+    modal.classList.add('visible')
+})
+
+const hide = document.getElementById("hide")
+
+hide.addEventListener('click', ()=>{
+    modal.classList.remove('visible')
+})
+
+
+
+
+
+
+
+
+
 /* document.getElementById ("exibir").addEventListener("click", function() {
     var div = document.getElementById ("pop-up");
     div.style.display = "block";
